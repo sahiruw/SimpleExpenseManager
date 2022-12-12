@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SQLiteHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "200726J.sqlite";
-    private static final int VERSION = 1;
+    private static final int VERSION = 25;
 
     //TABLE NAMES
     public static final String TABLE_ACCOUNT = "account";

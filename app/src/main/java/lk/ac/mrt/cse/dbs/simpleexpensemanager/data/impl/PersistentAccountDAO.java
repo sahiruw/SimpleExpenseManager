@@ -76,7 +76,6 @@ public class PersistentAccountDAO implements AccountDAO {
                     cursor.getString(cursor.getColumnIndex(NAME)),
                     cursor.getDouble(cursor.getColumnIndex(BALANCE))
             );
-            System.out.println(account.getAccountNo());
             this.accounts.put(account.getAccountNo(), account);
         }
         cursor.close();
